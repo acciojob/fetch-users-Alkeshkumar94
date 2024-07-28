@@ -49,7 +49,7 @@ const App = () => {
        </table>
        {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      {!loading && users.length === 0 && <p style={{textAlign:"center"}}>No users found.</p>}
+      {!loading && users.length === 0 && <p style={{textAlign:"center"}}>No data found to display.</p>}
     </div>
   )
 }
